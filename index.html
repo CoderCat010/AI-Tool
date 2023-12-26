@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI WEIBO</title>
+
+    <!-- !css and favicon links -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- !tailwind and daisyui links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.4.24/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- !google fonts and icon's links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--!header section starts from here-->
+    <header class="header-bg-setup h-[100%]">
+        <div class="container mx-auto pb-[50px]">
+            <!-- *navbar start from here -->
+            <nav class="lg:mx-10 md:mx-5 mx-1 py-3">
+            <!-- todo navbar parent div starts from here-->
+                <div class="navbar justify-between">
+                    <!-- navbar div satrts -->
+                    <div>
+                        <!-- ?dropmenu parent div starts from here-->
+                      <div class="dropdown">
+                        <div tabindex="0" role="button" class="pr-3 lg:hidden">
+                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </div>
+                        <!-- ?dropmenu's ul -->
+                        <ul tabindex="0" class="menu menu-sm dropdown-content mt-5 z-[1] p-5 shadow-sm shadow-white/40 bg-gradient-to-t from-[#27134f] ... rounded-box w-52 font-semibold text-base">
+                          <li><a>Home</a></li>
+                          <li><a>Pages</a></li>
+                          <li><a>Support</a></li>
+                          <li><a>Contact</a></li>
+                        </ul>
+                      </div>
+                       <!-- dropmenu parent div ends from here-->
+
+                      <!-- ?navbar logo -->
+                      <div>
+                          <img class="lg:w-[160px] w-[130px] md:w-[150px]" src="./img/logo.svg" alt="">
+                      </div>
+                    </div>
+                    <!-- ?navbar li list -->
+                      <ul class="hidden lg:flex gap-20 text-base">
+                        <li class="text-[#fff] cursor-pointer"><a>Home</a></li>
+                        <li class="text-slate-300 cursor-pointer"><a>Features</a></li>
+                        <li class="text-slate-300 cursor-pointer"><a>Pricing</a></li>
+                        <li class="text-slate-300 cursor-pointer"><a>Support</a></li>
+                      </ul>
+                     <!-- navbar div ends -->
+                     <!-- ?navbar button -->
+                    <div>
+                      <a class="button py-2 px-8">Sign Up</a>
+                    </div>
+                     <!-- navbar div ends -->
+                </div>
+            <!-- //navbar parent div end from here-->
+            </nav>
+            <!-- navbar ends from here -->
+
+            <!-- *banner section start from here -->
+            <div>
+                <div>
+                    <button>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
+                      </svg>Your Ultimate Creative Companion!
+                    </button>
+                </div>
+            </div>
+            <!-- banner section start from here -->
+        </div>
+    </header>
+    <!--//header section starts from here-->
+  </body>
+</html>
