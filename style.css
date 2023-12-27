@@ -6,7 +6,7 @@
 }
 
 .header-bg-setup{
-    background-image: linear-gradient(to top, #210f48 0%, #150933 60%, #0e0627 100%);
+    background-image: linear-gradient(to top, #030014 0%, #19044c 60%, #0c041d  100%);
 }
 
 .button{
@@ -33,3 +33,4 @@
     );
     border-top: 1px solid #5b516e;
   }
+
