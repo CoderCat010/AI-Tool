@@ -9,6 +9,10 @@
     background-image: linear-gradient(to top, #030014 0%, #19044c 50%, #030014  100%);
 }
 
+.h-bg-setup{
+    background-image: linear-gradient(to top, #030014 0%, #100230 50%, #030014  100%);
+}
+
 .button{
   transition: all 0.3s;
   background: linear-gradient(to right, rgba(155, 126, 218, 0.248) 1%, transparent 40%, transparent 60%, rgba(155, 126, 218, 0.248) 100%);
