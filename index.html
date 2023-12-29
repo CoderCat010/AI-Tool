@@ -130,7 +130,7 @@
                <!-- section-1 cards starts here-->
               <div class="mt-[100px] grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mx-10 md:mx-10 mx-5 lg:gap-0 md:gap-0 gap-10">
 
-                  <div class="text-center hover:bg-gradient-to-t from-[#110e23] to-[#040115] ... py-14 border-b border-r border-white/5">
+                  <div class="text-center hover:bg-gradient-to-t from-[#110e23] to-[#040115] ... py-14 lg:border-b lg:border-r border border-white/5">
                         <div class="flex justify-center">
                            <img class=" border border-white/5 p-5 rounded-full bg-gradient-to-t from-[#0c091d] from-30% via-[#191525] via-40% to-[#0c091d] to-60% ..." src="./img/icon-01.svg" alt="">
                         </div>
@@ -141,7 +141,7 @@
                         </div>
                   </div>
 
-                  <div class="text-center hover:bg-gradient-to-t from-[#110e23] to-[#040115] ... py-14 border-b border-r border-white/5">
+                  <div class="text-center hover:bg-gradient-to-t from-[#110e23] to-[#040115] ... py-14 lg:border-b lg:border-r border border-white/5">
                     <div class="flex justify-center">
                        <img class=" border border-white/5 p-5 rounded-full bg-gradient-to-t from-[#0c091d] from-30% via-[#191525] via-40% to-[#0c091d] to-60% ..." src="./img/icon-02.svg" alt="">
                     </div>
@@ -152,7 +152,7 @@
                     </div>
                   </div>
 
-                  <div class="text-center hover:bg-gradient-to-t from-[#110e23] to-[#040115] ... border-b border-white/5 py-14">
+                  <div class="text-center hover:bg-gradient-to-t from-[#110e23] to-[#040115] ... lg:border-b border border-white/5 py-14">
                     <div class="flex justify-center">
                        <img class=" border border-white/5 p-5 rounded-full bg-gradient-to-t from-[#0c091d] from-30% via-[#191525] via-40% to-[#0c091d] to-60% ..." src="./img/icon-03.svg" alt="">
                     </div>
@@ -163,7 +163,7 @@
                     </div>
                   </div>
 
-                  <div class="text-center hover:bg-gradient-to-b from-[#110e23] to-[#040115] ... py-14 border-r border-white/5">
+                  <div class="text-center hover:bg-gradient-to-b from-[#110e23] to-[#040115] ... py-14 lg:border-r border border-white/5">
                     <div class="flex justify-center">
                        <img class=" border border-white/5 p-5 rounded-full bg-gradient-to-t from-[#0c091d] from-30% via-[#191525] via-40% to-[#0c091d] to-60% ..." src="./img/icon-04.svg" alt="">
                     </div>
@@ -174,7 +174,7 @@
                     </div>
                   </div>
 
-                  <div class="text-center hover:bg-gradient-to-b from-[#110e23] to-[#040115] ... py-14 border-r border-white/5">
+                  <div class="text-center hover:bg-gradient-to-b from-[#110e23] to-[#040115] ... py-14 lg:border-r border border-white/5">
                     <div class="flex justify-center">
                        <img class=" border border-white/5 p-5 rounded-full bg-gradient-to-t from-[#0c091d] from-30% via-[#191525] via-40% to-[#0c091d] to-60% ..." src="./img/icon-05.svg" alt="">
                     </div>
@@ -185,7 +185,7 @@
                     </div>
                   </div>
 
-                  <div class="text-center hover:bg-gradient-to-b from-[#110e23] to-[#040115] ... py-14">
+                  <div class="text-center hover:bg-gradient-to-b from-[#110e23] to-[#040115] ... py-14 lg:border-0 border border-white/5">
                     <div class="flex justify-center">
                        <img class=" border border-white/5 p-5 rounded-full bg-gradient-to-t from-[#0c091d] from-30% via-[#191525] via-40% to-[#0c091d] to-60% ..." src="./img/icon-06.svg" alt="">
                     </div>
@@ -713,7 +713,7 @@
         <!-- section-4 ends from here -->
 
         <!-- *section-5 start from here -->
-          <section class="pb-[30px] container mx-auto">
+          <section class="lg:pb-[30px] pb-0  container mx-auto">
                 
             <div class="wrapper">
               <div class="slider mx-10">
@@ -799,7 +799,7 @@
         <!-- section-5 ends from here --> 
          
         <!-- *section-6 start from here -->
-        <section class="sec-6-bg lg:block md:block hidden">
+        <section class="sec-6-bg lg:block lg:pb-[50px] md:block hidden">
             <!-- !section-6 parent div start from here -->
             <div class="container mx-auto">
               <div class="flex justify-center lg:0 md:px-0 px-5">
@@ -960,21 +960,21 @@
     <!-- //main section ends here -->
 
     
-    <footer class="bg-[#030014] h-[100%] w-[100%] lg:pb-4 pb-5">
-
-      <div class="flex justify-between mx-24 pt-10">
-          <div>
+    <footer class="bg-[#030014] lg:pb-4 pb-5 lg:pt-10 pt-5">
+      <div class="container mx-auto">
+      
+      <div class="lg:flex items-center justify-between mx-[56px] hidden">
+           <div>
               <h2 class="font-extrabold text-white text-2xl mb-2">News & Update</h2>
               <p>Keep up to date with everything about our tool</p>
-          </div>
-
-          <div class="lg:pt-0 pt-5">
-            <input class="py-3 w-[400px] px-3 rounded-xl bg-transparent border border-[#a19dal] md:relative md:right-4 lg:right-3 right-0" placeholder="Enter Your Email" type="email">
+           </div>
+           <div class="flex gap-4">
+            <input class="h-14 pl-3 w-[380px] rounded-xl bg-transparent border border-[#ffffff3e]" placeholder="Enter Your Email" type="email">
             <button class="bg-[#11072d] text-[#e2e1e1] py-3 px-5 rounded-full lg:mt-0 mt-5">Send<i class='bx bx-send bx-sm relative top-1 left-1'></i></button>
           </div>
       </div>
 
-      <hr class="hro mt-10">
+      <hr class="hro mt-10 lg:block md:hidden block">
 
       <div class="flex lg:flex-row flex-col justify-center gap-x-[70px] items-center pt-7 md:pt-12 lg:text-left text-center md:text-left">
            <div class="lg:flex-col md:flex gap-x-[150px]">
@@ -1023,7 +1023,7 @@
         </div>
            
           <div class="lg:pt-0 pt-5">
-               <input class="py-3 w-[250px] px-3 rounded-xl bg-transparent border border-[#a19dal] md:relative md:right-4 lg:right-3 right-0" type="email">
+               <input class="py-3 w-[250px] px-3 rounded-xl bg-transparent border border-[#ffffff3e] md:relative md:right-4 lg:right-3 right-0" type="email">
                <button class="bg-[#11072d] text-[#e2e1e1] p-3 rounded-full lg:mt-0 mt-5"><i class='bx bx-bell bx-sm relative top-1 right-1'></i>Subscribe</button>
           </div>
 
@@ -1034,7 +1034,7 @@
       <div>
         <p class="text-center pt-5 text-neutral-500 lg:text-base text-sm">© Copyright (CoderCat010). All Rights Reserved.</p>
       </div>
-
+    </div>
     </footer>
 
 
