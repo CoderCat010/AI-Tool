@@ -13,6 +13,34 @@
     background-image: linear-gradient(to top, #030014 0%, #100230 50%, #030014  100%);
 }
 
+.h-bg-setupp{
+  /* background-image: linear-gradient(to right, #11062f 0%, #412d66  51%, #11062f  100%); */
+  background-image: linear-gradient(to bottom, #3f2c66 0%, #11082e 35%, #030014  100%);
+
+}
+
+         
+.btn-grad {
+  
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
 .button{
   transition: all 0.3s;
   background: linear-gradient(to right, rgba(155, 126, 218, 0.248) 1%, transparent 40%, transparent 60%, rgba(155, 126, 218, 0.248) 100%);
@@ -84,4 +112,53 @@
 	100% {
 		transform: translateX(calc(-250px * 3));
 	}
+}
+
+.sec-6-bg{
+   width: 100%;
+   height: 100%;
+   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.572), rgba(0, 0, 0, 0.572)), url(./img/blog/90440.jpg);
+   background-position: center;
+   background-size: cover;
+}
+
+.cards {
+  background: rgba(255, 255, 255, 0.038);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.655);
+  border-radius: 25px;
+  backdrop-filter: blur(5px);
+}
+
+.img-avater img{
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.card-text {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.img-portada {
+  width: 100%;
+}
+
+.portada {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-image: url("./img/blog/OIP.jpeg");
+  background-position: bottom center;
+  background-size: cover;
+}
+
+.actions button {
+  font-size: 16px;
+  color: #007677;
+  cursor: pointer;
+  transition:.5s;
+  &:hover{
+  color: #ffffff;
+  transform: rotate(10deg)
+  }
 }
